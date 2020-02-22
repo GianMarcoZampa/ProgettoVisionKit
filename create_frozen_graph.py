@@ -1,9 +1,9 @@
 import tensorflow as tf
 import tensorflow.keras as ks
 
-MODEL_H5_PATH = "cifar10_model_v7.h5"
-MODEL_TXT_PATH = "frozengraph_v1.pbtxt"
-MODEL_PATH = "frozengraph_v1.pb"
+MODEL_H5_PATH = "model_datagen_v1.h5"
+MODEL_TXT_PATH = "frozengraph_datagen_v1.pbtxt"
+MODEL_PATH = "frozengraph_datagen_v1.pb"
 
 
 def freeze_session(session, keep_var_names=None, output_names=None, clear_devices=True):

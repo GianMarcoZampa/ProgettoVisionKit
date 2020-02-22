@@ -1,0 +1,8 @@
+./bonnet_model_compiler.par \
+  --frozen_graph_path=frozengraph_datagen_v1.pb \
+  --output_graph_path=frozengraph_datagen_v1.binaryproto \
+  --input_tensor_name=input_image_input \
+  --output_tensor_names=result/Softmax \
+  --input_tensor_size=32 \
+  --debug
+
